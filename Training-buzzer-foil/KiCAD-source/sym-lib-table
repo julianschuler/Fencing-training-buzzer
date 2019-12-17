@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Training-buzzer-foil-rescue")(type "Legacy")(uri "${KIPRJMOD}/Training-buzzer-foil-rescue.lib")(options "")(descr ""))
+)

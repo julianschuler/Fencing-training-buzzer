@@ -19,7 +19,7 @@ Comment8 ""
 Comment9 ""
 $EndDescr
 $Comp
-L Transistor_BJT:BC547 Q3
+L Training-buzzer-foil-rescue:BC547-Transistor_BJT Q3
 U 1 1 5DF68983
 P 5750 4350
 F 0 "Q3" H 5941 4396 50  0000 L CNN
@@ -30,7 +30,7 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5750 4350 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L Training-buzzer-foil-rescue:R-Device R1
 U 1 1 5DF6C7EC
 P 4400 4050
 F 0 "R1" V 4193 4050 50  0000 C CNN
@@ -43,7 +43,7 @@ $EndComp
 Wire Wire Line
 	5450 4350 5450 4250
 $Comp
-L Device:D D1
+L Training-buzzer-foil-rescue:D-Device D1
 U 1 1 5DF71B05
 P 4150 3650
 F 0 "D1" V 4196 3571 50  0000 R CNN
@@ -54,7 +54,7 @@ F 3 "~" H 4150 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Buzzer BZ1
+L Training-buzzer-foil-rescue:Buzzer-Device BZ1
 U 1 1 5DF86A1B
 P 6300 3600
 F 0 "BZ1" H 6452 3629 50  0000 L CNN
@@ -65,7 +65,7 @@ F 3 "~" V 6275 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D2
+L Training-buzzer-foil-rescue:LED-Device D2
 U 1 1 5DF87C1E
 P 5850 3800
 F 0 "D2" V 5889 3683 50  0000 R CNN
@@ -123,7 +123,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 4650 5850 4650
 $Comp
-L Device:R R2
+L Training-buzzer-foil-rescue:R-Device R2
 U 1 1 5DF72508
 P 4650 3650
 F 0 "R2" H 4580 3604 50  0000 R CNN
@@ -134,7 +134,7 @@ F 3 "~" H 4650 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:BC547 Q2
+L Training-buzzer-foil-rescue:BC547-Transistor_BJT Q2
 U 1 1 5DF65CB1
 P 5350 4050
 F 0 "Q2" H 5541 4096 50  0000 L CNN
@@ -145,7 +145,7 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5350 4050 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC547 Q1
+L Training-buzzer-foil-rescue:BC547-Transistor_BJT Q1
 U 1 1 5DFF3DCE
 P 4950 4350
 F 0 "Q1" H 5141 4396 50  0000 L CNN
@@ -155,8 +155,6 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4950 4350 50  0001 L CNN
 	1    4950 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 4050 4650 4050
 Connection ~ 5050 4650
 Wire Wire Line
 	5050 4650 5050 4550
@@ -167,8 +165,6 @@ Wire Wire Line
 	4150 4200 4150 4050
 Connection ~ 4150 4050
 Wire Wire Line
-	4650 3800 4650 4050
-Wire Wire Line
 	4650 4350 4750 4350
 Wire Wire Line
 	5050 4150 5050 4050
@@ -178,7 +174,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 3200 4650 3500
 $Comp
-L Device:C C1
+L Training-buzzer-foil-rescue:C-Device C1
 U 1 1 5DF7BD47
 P 4150 4350
 F 0 "C1" H 4265 4396 50  0000 L CNN
@@ -189,7 +185,7 @@ F 3 "~" H 4150 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Training-buzzer-foil-rescue:R-Device R3
 U 1 1 5DF8DCED
 P 5850 3450
 F 0 "R3" H 5920 3496 50  0000 L CNN
@@ -200,7 +196,7 @@ F 3 "~" H 5850 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C2
+L Training-buzzer-foil-rescue:CP-Device C2
 U 1 1 5DF9DBF4
 P 6850 3950
 F 0 "C2" H 6968 3996 50  0000 L CNN
@@ -211,7 +207,7 @@ F 3 "~" H 6850 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J1
+L Training-buzzer-foil-rescue:Conn_01x02_Male-Connector J1
 U 1 1 5DFE6D93
 P 5000 3000
 F 0 "J1" V 5062 2812 50  0000 R CNN
@@ -232,7 +228,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 3800 6850 3200
 $Comp
-L Connector:Barrel_Jack_Switch J2
+L Training-buzzer-foil-rescue:Barrel_Jack_Switch-Connector J2
 U 1 1 5DFF66BA
 P 7600 3950
 F 0 "J2" H 7370 3900 50  0000 R CNN
@@ -253,9 +249,8 @@ Wire Wire Line
 	7300 3200 6850 3200
 Connection ~ 6850 3200
 NoConn ~ 7300 3950
-Connection ~ 4650 4050
 Wire Wire Line
-	4650 4050 5050 4050
+	4550 4050 5050 4050
 Wire Wire Line
-	4650 4050 4650 4350
+	4650 3800 4650 4350
 $EndSCHEMATC

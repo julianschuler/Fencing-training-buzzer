@@ -1,4 +1,4 @@
-update=Mo 16 Dez 2019 00:07:23 CET
+update=Di 17 Dez 2019 13:09:23 CET
 version=1
 last_client=kicad
 [general]
@@ -32,11 +32,6 @@ ERC_CheckBusToNetConflicts=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=Training-buzzer-foil.net
-LastSTEPExportPath=
-LastIDFExportPath=
-LastVRMLExportPath=
-LastSpecctraDSNExportPath=
-LastGenCADExportPath=
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -49,8 +44,11 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-CopperEdgeClearance=0.01
 TrackWidth1=0.25
+TrackWidth2=0.3
+TrackWidth3=0.4
+TrackWidth4=0.5
+TrackWidth5=0.6
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -75,13 +73,11 @@ OthersTextSizeV=1
 OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
-OthersTextUpright=0
-DimensionUnits=0
-DimensionPrecision=1
+OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -247,7 +243,7 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
-Enabled=1
+Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
