@@ -1,4 +1,4 @@
-16926863955132247
+16928450151474247
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73891,6 +73891,13 @@ test point THT pad
 0
 1
 1
+Training-buzzer-configurable
+BarrelJack_Horizontal
+DC Barrel Jack
+Power Jack
+0
+3
+3
 Training-buzzer-configurable
 CP_Radial_Supercap_D21.5mm_P5.00mm
 CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=10.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
