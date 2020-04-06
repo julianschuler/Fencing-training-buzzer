@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "Training-buzzer-foil")(type "KiCad")(uri "${KIPRJMOD}/Training-buzzer-foil.pretty")(options "")(descr ""))
-)
