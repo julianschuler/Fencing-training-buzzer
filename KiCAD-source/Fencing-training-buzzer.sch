@@ -22,7 +22,7 @@ F 1 "DC Jack 5V" H 8320 3441 50  0000 R CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 8600 3360 50  0001 C CNN
 F 3 "~" H 8600 3360 50  0001 C CNN
 	1    8550 3400
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:CP C3
